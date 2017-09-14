@@ -6,3 +6,5 @@
 /.atom/.apm/
 /.atom/.node-gyp/
 /.atom/recovery/
+
+.DS_Store
