@@ -1,0 +1,28 @@
+
+'body':
+    'alt-x': 'command-palette:toggle'
+    'cmd-o': 'advanced-open-file:toggle'
+    'alt-tab': 'window:focus-next-pane'
+    'alt-f17': 'tree-view:toggle-focus'
+    'ctrl-cmd-r': 'window:reload'
+
+'atom-workspace':
+  'ctrl-alt-s': 'symbols-tree-view:toggle'
+  'ctrl-cmd-p': 'recent-projects:open'
+
+'atom-text-editor':
+    'cmd-o': 'advanced-open-file:toggle'
+    'cmd-shift-ctrl-D': 'expand-region:expand'
+    'ctrl-cmd-l':'linter:toggle'
+    'ctrl-shift-cmd-M': 'bookmarks:toggle-bookmark'
+    'alt-m': 'bookmarks:jump-to-next-bookmark'
+    'cmd-shift-m': 'bookmarks:view-all'
+    'ctrl-alt-cmd-,':'editor:add-selection-below'
+
+'atom-workspace:not([mini])':
+  'cmd-t': 'recent-finder:toggle'
+
+# Advanced Open File
+'.advanced-open-file atom-text-editor':
+  'left': 'advanced-open-file:delete-path-component'
+  'right': 'core:confirm'

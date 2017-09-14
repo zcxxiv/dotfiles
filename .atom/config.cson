@@ -1,0 +1,147 @@
+"*":
+  "activate-power-mode":
+    particles:
+      size: {}
+      spawnCount: {}
+      totalCount: {}
+    screenShake:
+      enabled: false
+  "advanced-open-file":
+    createDirectories: true
+    fuzzyMatch: true
+    helmDirSwitch: true
+  "atom-alignment": {}
+  "atom-beautify":
+    _analyticsUserId: "2c75b23d-19df-4e1c-bbf5-b66c52f30bc9"
+    analytics: false
+    general:
+      _analyticsUserId: "e20c1b8f-7e70-4d5e-a87b-07ff12f7525c"
+  "atom-material-ui":
+    colors:
+      abaseColor: "#ffffff"
+      accentColor: "#005493"
+      predefinedColor: "Blue Grey"
+    fonts: {}
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    treeView:
+      blendTabs: true
+    ui:
+      animations: false
+      panelContrast: true
+      panelShadows: true
+  "autocomplete-plus":
+    fileBlacklist: [
+      "*.md"
+    ]
+  "autocomplete-python":
+    useKite: false
+  core:
+    disabledPackages: [
+      "wrap-guide"
+      "recent-projects"
+      "linter-flake8"
+      "linter-markdown"
+      "regex-railroad-diagram"
+      "preview"
+      "markdown-scroll-sync"
+    ]
+    packagesWithKeymapsDisabled: [
+      "emmet"
+      "recent-projects"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+    titleBar: "custom"
+  "custom-title":
+    template: "<%= projectName %>"
+  editor:
+    fontFamily: "PragmataPro"
+    fontSize: 15
+    invisibles: {}
+    lineHeight: 1.4
+    scrollPastEnd: true
+    showIndentGuide: true
+  emmet: {}
+  "exception-reporting":
+    userId: "539cf23f-5a2e-30f9-b67e-25656127ab34"
+  "fuzzy-finder": {}
+  "git-clone":
+    target_directory: "/Users/zcxxiv/online_repo"
+  "git-diff": {}
+  "git-plus": {}
+  "golden-ratio":
+    scaleFactor: 0.7
+  jumpy: {}
+  linter:
+    showErrorPanel: false
+    showErrorTabLine: true
+    showProviderName: false
+  "linter-flake8": {}
+  "linter-jshint": {}
+  "linter-pylint":
+    executablePath: "/usr/local/bin/pylint"
+  "markdown-preview": {}
+  "markdown-table-formatter": {}
+  minimap:
+    autoToggle: false
+    scrollAnimation: true
+  "one-light-ui":
+    fontSize: 11
+  "open-recent":
+    maxRecentDirectories: 24
+    maxRecentFiles: 240
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  pigments: {}
+  "prettier-atom":
+    useEslint: true
+  preview:
+    _analyticsUserId: "57de173e-c0db-42df-8903-a46115d441b6"
+  "recent-files-fuzzy-finder":
+    restoreSession: true
+  "recent-finder": {}
+  "recent-projects": {}
+  "relative-numbers": {}
+  smalls: {}
+  "spell-check": {}
+  "symbols-tree-view": {}
+  "tab-switcher": {}
+  "terminal-plus":
+    core: {}
+    style:
+      theme: "inverse"
+    toggles: {}
+  "tree-view":
+    hideIgnoredNames: true
+    showOnRightSide: true
+  "vim-mode":
+    useSmartcaseForSearch: true
+  welcome:
+    showOnStartup: false
+".coffee.source":
+  editor:
+    tabLength: 2
+".gfm.source":
+  editor:
+    preferredLineLength: 72
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+".js.regexp.replacement.source":
+  editor:
+    tabLength: 4
+".js.regexp.source":
+  editor:
+    tabLength: 4
+".litcoffee.source":
+  editor:
+    tabLength: 2
+".source.swift":
+  editor:
+    showIndentGuide: true
