@@ -46,6 +46,7 @@
       "regex-railroad-diagram"
       "preview"
       "markdown-scroll-sync"
+      "linter"
     ]
     packagesWithKeymapsDisabled: [
       "emmet"
