@@ -54,7 +54,7 @@
     telemetryConsent: "limited"
     themes: [
       "one-light-ui"
-      "one-light-syntax"
+      "zc-morning-syntax"
     ]
     titleBar: "custom"
   "custom-title":
@@ -77,10 +77,7 @@
   "golden-ratio":
     scaleFactor: 0.7
   jumpy: {}
-  linter:
-    showErrorPanel: false
-    showErrorTabLine: true
-    showProviderName: false
+  linter: {}
   "linter-flake8": {}
   "linter-jshint": {}
   "linter-pylint":

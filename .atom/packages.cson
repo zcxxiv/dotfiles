@@ -49,6 +49,7 @@ packages: [
   "recent-finder"
   "recent-projects"
   "regex-railroad-diagram"
+  "relative-numbers"
   "set-syntax"
   "spacegray-dark-neue-ui"
   "spacegray-dark-ui"
