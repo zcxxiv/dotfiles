@@ -6,4 +6,19 @@
     ]
     devMode: true
   }
+  {
+    title: "Dotfiles"
+    paths: [
+      "/Users/zcxxiv/.dotfiles"
+    ]
+    icon: "icon-tools"
+    devMode: true
+  }
+  {
+    title: "Time Wallet"
+    paths: [
+      "/Users/zcxxiv/Dropbox/web_development/TimeWallet"
+    ]
+    devMode: true
+  }
 ]
