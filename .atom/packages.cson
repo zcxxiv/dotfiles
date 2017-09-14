@@ -35,7 +35,6 @@ packages: [
   "linter-pylint"
   "linter-ui-default"
   "lodash-snippets"
-  "markdown-folder"
   "markdown-scroll-sync"
   "markdown-table-formatter"
   "markdown-writer"
@@ -57,7 +56,6 @@ packages: [
   "tab-switcher"
   "turbo-javascript"
   "vim-mode-plus"
-  "zc-draft-syntax"
   "zc-morning-syntax"
   "Zen"
 ]
