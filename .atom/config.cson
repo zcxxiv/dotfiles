@@ -57,12 +57,11 @@
       "one-light-ui"
       "zc-morning-syntax"
     ]
-    titleBar: "custom"
+    titleBar: "hidden"
   "custom-title":
     template: "<%= projectName %>"
   editor:
     fontFamily: "PragmataPro"
-    fontSize: 15
     invisibles: {}
     lineHeight: 1.4
     scrollPastEnd: true
