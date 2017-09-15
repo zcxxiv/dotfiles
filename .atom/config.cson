@@ -57,7 +57,7 @@
       "one-light-ui"
       "zc-morning-syntax"
     ]
-    titleBar: "hidden"
+    titleBar: "custom"
   "custom-title":
     template: "<%= projectName %>"
   editor:
