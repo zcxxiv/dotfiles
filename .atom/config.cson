@@ -62,7 +62,6 @@
     template: "<%= projectName %>"
   editor:
     fontFamily: "PragmataPro"
-    fontSize: 15
     invisibles: {}
     lineHeight: 1.4
     scrollPastEnd: true
