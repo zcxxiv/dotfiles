@@ -90,6 +90,7 @@
     scrollAnimation: true
   "one-light-ui":
     fontSize: 12
+    hideDockButtons: true
   "open-recent":
     maxRecentDirectories: 24
     maxRecentFiles: 240
