@@ -5,6 +5,7 @@
     'alt-tab': 'window:focus-next-pane'
     'alt-f17': 'tree-view:toggle-focus'
     'ctrl-cmd-r': 'window:reload'
+    'alt-`': 'tree-view:toggle-focus'
 
 'atom-workspace':
   'ctrl-shift-cmd-s': 'outline-view:toggle'
