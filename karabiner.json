@@ -177,62 +177,6 @@
             ]
           },
           {
-            "description": "brightness up",
-            "manipulators": [
-              {
-                "from": {
-                  "key_code": "grave_accent_and_tilde",
-                  "modifiers": {
-                    "mandatory": [
-                      "left_option"
-                    ],
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "key_code": "f15",
-                    "modifiers": [
-                      "left_shift",
-                      "left_option"
-                    ]
-                  }
-                ],
-                "type": "basic"
-              }
-            ]
-          },
-          {
-            "description": "brightness down",
-            "manipulators": [
-              {
-                "from": {
-                  "key_code": "backslash",
-                  "modifiers": {
-                    "mandatory": [
-                      "left_option"
-                    ],
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "key_code": "f14",
-                    "modifiers": [
-                      "left_shift",
-                      "left_option"
-                    ]
-                  }
-                ],
-                "type": "basic"
-              }
-            ]
-          },
-          {
             "manipulators": [
               {
                 "description": "hyper j to down arrow",
