@@ -1423,7 +1423,7 @@
             "manipulators": [
               {
                 "from": {
-                  "key_code": "quote",
+                  "key_code": "semicolon",
                   "modifiers": {
                     "mandatory": [
                       "left_option"
@@ -1451,8 +1451,7 @@
                   "key_code": "quote",
                   "modifiers": {
                     "mandatory": [
-                      "left_option",
-                      "left_command"
+                      "left_option"
                     ]
                   }
                 },
