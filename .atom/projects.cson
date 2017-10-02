@@ -15,10 +15,19 @@
     devMode: true
   }
   {
-    title: "Time Wallet"
+    title: "Time Wallet Playground"
     paths: [
       "/Users/zcxxiv/Dropbox/web_development/TimeWallet"
     ]
+    icon: "icon-clock"
+    devMode: true
+  }
+  {
+    title: "Time Wallet"
+    paths: [
+      "/Users/zcxxiv/Dropbox/web_development/time-wallet"
+    ]
+    icon: "icon-clock"
     devMode: true
   }
 ]
