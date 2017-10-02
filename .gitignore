@@ -6,5 +6,6 @@
 /.atom/.apm/
 /.atom/.node-gyp/
 /.atom/recovery/
+/.atom/config.cson
 
 .DS_Store
