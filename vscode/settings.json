@@ -1,0 +1,20 @@
+{
+  "editor.fontFamily": "PragmataPro",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.lineNumbers": "off",
+  "workbench.colorTheme": "Nord",
+  "workbench.activityBar.visible": false,
+  "editor.minimap.enabled": false,
+  "vim.disableAnnoyingNeovimMessage": true,
+  "editor.cursorBlinking": "phase",
+  "workbench.iconTheme": "vs-seti",
+  "workbench.sideBar.location": "right",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#88C0D0"
+  },
+  "workbench.statusBar.visible": true,
+  "editor.renderLineHighlight": "none",
+  "code-runner.showRunIconInEditorTitleMenu": false
+}
