@@ -10,7 +10,7 @@
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   },
   {
-    "key": "ctrl+shift+cmd+d",
+    "key": "ctrl+shift+d",
     "command": "editor.action.previewDeclaration",
     "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   },
