@@ -26,7 +26,7 @@
   },
   {
     "key": "alt+`",
-    "command": "workbench.action.``focusActiveEditorGroup",
+    "command": "workbench.action.focusActiveEditorGroup",
     "when": "explorerViewletFocus"
   },
   {
