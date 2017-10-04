@@ -31,6 +31,8 @@
       animations: false
       panelContrast: true
       panelShadows: true
+  "atom-ternjs":
+    inlineFnCompletionDocumentation: true
   "autocomplete-plus":
     fileBlacklist: [
       "*.md"
@@ -38,6 +40,18 @@
   "autocomplete-python":
     useKite: false
   core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+        ".hgrc"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
     disabledPackages: [
       "wrap-guide"
       "recent-projects"
@@ -48,6 +62,7 @@
       "markdown-scroll-sync"
       "linter"
       "deprecation-cop"
+      "turbo-javascript"
     ]
     packagesWithKeymapsDisabled: [
       "emmet"
@@ -55,8 +70,8 @@
     ]
     telemetryConsent: "limited"
     themes: [
-      "one-light-ui"
-      "zc-morning-syntax"
+      "one-dark-ui"
+      "one-dark-vivid-syntax"
     ]
     titleBar: "hidden"
   "custom-title":
@@ -89,6 +104,8 @@
   minimap:
     autoToggle: false
     scrollAnimation: true
+  "one-dark-ui":
+    hideDockButtons: true
   "one-light-ui":
     fontSize: 12
     hideDockButtons: true
@@ -108,6 +125,9 @@
   "recent-finder": {}
   "recent-projects": {}
   "relative-numbers": {}
+  "seti-ui":
+    compactView: true
+    hideProjectTab: true
   smalls: {}
   "spell-check": {}
   "symbols-tree-view": {}

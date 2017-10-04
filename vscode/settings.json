@@ -16,6 +16,5 @@
   },
   "workbench.statusBar.visible": true,
   "editor.renderLineHighlight": "none",
-  "code-runner.showRunIconInEditorTitleMenu": false,
-  "window.zoomLevel": -1
+  "code-runner.showRunIconInEditorTitleMenu": false
 }
