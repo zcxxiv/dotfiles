@@ -1,6 +1,6 @@
 {
   "editor.fontFamily": "PragmataPro",
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
   "editor.lineNumbers": "relative",
@@ -15,6 +15,7 @@
     "editorCursor.foreground": "#88C0D0"
   },
   "workbench.statusBar.visible": true,
-  "editor.renderLineHighlight": "none",
-  "code-runner.showRunIconInEditorTitleMenu": false
+  "editor.renderLineHighlight": "all",
+  "code-runner.showRunIconInEditorTitleMenu": false,
+  "window.zoomLevel": 0
 }

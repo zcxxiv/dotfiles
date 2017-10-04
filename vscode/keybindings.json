@@ -21,7 +21,18 @@
   },
   {
     "key": "alt+`",
-    "command": "workbench.view.explorer"
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "!fileExploreerFocus"
+  },
+  {
+    "key": "alt+`",
+    "command": "workbench.action.``focusActiveEditorGroup",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "alt+`",
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "editorFocus"
   },
   {
     "key": "shift+cmd+e",
@@ -46,14 +57,20 @@
     "when": "explorerViewletVisible && filesExplorerFocus"
   },
   {
-    "key": "ctrl+`",
-    "command": "workbench.action.terminal.toggleTerminal"
+    "key": "alt+1",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
   },
   {
-    "key": "ctrl+`",
+    "key": "alt+1",
     "command": "workbench.action.terminal.focus",
     "when": "!terminalFocus"
   },
+  // {
+  //   "key": "alt+`",
+  //   "command": "workbench.action.terminal.focus",
+  //   "when": "terminalFocus"
+  // },
   {
   "key": "alt+tab",
     "command": "workbench.action.focusNextGroup"
@@ -61,5 +78,10 @@
   {
     "key": "cmd+k cmd+right",
     "command": "-workbench.action.focusNextGroup"
+  },
+  {
+    "key": "alt+tab",
+    "command": "workbench.action.terminal.focusNext",
+    "when":"terminalFocus"
   }
 ]
