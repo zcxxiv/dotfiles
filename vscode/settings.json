@@ -3,8 +3,8 @@
   "editor.fontSize": 15,
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
-  "editor.lineNumbers": "off",
-  "workbench.colorTheme": "Hop Light",
+  "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "Nord",
   "workbench.activityBar.visible": false,
   "editor.minimap.enabled": false,
   "vim.disableAnnoyingNeovimMessage": true,
@@ -16,5 +16,6 @@
   },
   "workbench.statusBar.visible": true,
   "editor.renderLineHighlight": "none",
-  "code-runner.showRunIconInEditorTitleMenu": false
+  "code-runner.showRunIconInEditorTitleMenu": false,
+  "window.zoomLevel": -1
 }
