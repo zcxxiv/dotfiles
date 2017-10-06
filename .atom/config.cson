@@ -70,8 +70,8 @@
     ]
     telemetryConsent: "limited"
     themes: [
-      "one-dark-ui"
-      "one-dark-vivid-syntax"
+      "one-light-ui"
+      "one-light-syntax"
     ]
     titleBar: "hidden"
   "custom-title":

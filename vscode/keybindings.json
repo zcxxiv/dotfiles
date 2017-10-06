@@ -66,11 +66,6 @@
     "command": "workbench.action.terminal.focus",
     "when": "!terminalFocus"
   },
-  // {
-  //   "key": "alt+`",
-  //   "command": "workbench.action.terminal.focus",
-  //   "when": "terminalFocus"
-  // },
   {
   "key": "alt+tab",
     "command": "workbench.action.focusNextGroup"
@@ -83,5 +78,17 @@
     "key": "alt+tab",
     "command": "workbench.action.terminal.focusNext",
     "when":"terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm"
+  },
+  {
+    "key": "alt+g",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm"
   }
 ]
