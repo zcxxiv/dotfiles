@@ -4,7 +4,7 @@
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
   "editor.lineNumbers": "off",
-  "workbench.colorTheme": "Nord",
+  "workbench.colorTheme": "Hop Light",
   "workbench.activityBar.visible": false,
   "editor.minimap.enabled": false,
   "vim.disableAnnoyingNeovimMessage": true,
@@ -12,10 +12,31 @@
   "workbench.iconTheme": "vs-seti",
   "workbench.sideBar.location": "right",
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#88C0D0"
+    // "editorCursor.foreground": "#88C0D0"
+    "editorCursor.foreground": "#57aaf8",
+    "editorCursor.background": "#FFFFFF",
+    "terminal.ansiBlack": "#41a6d9",
+    "terminal.ansiBlue": "#41a6d9",
+    "terminal.ansiBrightBlack": "#828C99",
+    "terminal.ansiBrightBlue": "#81c4e6",
+    "terminal.ansiBrightCyan": "#85d3b9",
+    "terminal.ansiBrightGreen": "#9ed106",
+    "terminal.ansiBrightMagenta": "#C9b1e1",
+    "terminal.ansiBrightRed": "#FF8080",
+    "terminal.ansiBrightWhite": "#d9d8d7",
+    "terminal.ansiBrightYellow": "#f6b860",
+    "terminal.ansiCyan": "#85d3b9",
+    "terminal.ansiGreen": "#9acc06",
+    "terminal.ansiMagenta": "#a37acc",
+    "terminal.ansiRed": "#ff3333",
+    "terminal.ansiWhite": "#ffffff",
+    "terminal.ansiYellow": "#f29718"
   },
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
   "workbench.statusBar.visible": true,
   "editor.renderLineHighlight": "all",
   "code-runner.showRunIconInEditorTitleMenu": false,
+  "editor.snippetSuggestions": "top",
   "window.zoomLevel": 0
 }
