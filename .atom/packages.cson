@@ -36,7 +36,6 @@ packages: [
   "lodash-snippets"
   "markdown-scroll-sync"
   "markdown-writer"
-  "nuclide"
   "one-dark-vivid-syntax"
   "open-in-browser"
   "open-recent"

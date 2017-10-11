@@ -260,8 +260,8 @@ you should place your code here."
 
   (setq-default c-basic-offset 2)
 
-  (set-frame-size (selected-frame) 94 67)
-  (set-frame-position (selected-frame) 1143 28)
+  (set-frame-size (selected-frame) 99 67)
+  (set-frame-position (selected-frame) 1103 28)
 
   (defun my-repeat-last-shell-command ()
     (interactive)

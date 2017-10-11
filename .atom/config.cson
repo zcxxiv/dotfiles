@@ -142,6 +142,8 @@
     showOnRightSide: true
   "vim-mode":
     useSmartcaseForSearch: true
+  "vim-mode-plus":
+    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
   welcome:
     showOnStartup: false
 ".coffee.source":
