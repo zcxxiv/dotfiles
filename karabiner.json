@@ -560,6 +560,33 @@
             ]
           },
           {
+            "description": "alter command G",
+            "manipulators": [
+              {
+                "from": {
+                  "key_code": "g",
+                  "modifiers": {
+                    "mandatory": [
+                      "left_command"
+                    ]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "g",
+                    "modifiers": [
+                      "left_shift",
+                      "left_control",
+                      "left_command"
+                    ]
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+
+          {
             "description": "alter command U",
             "manipulators": [
               {
