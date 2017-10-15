@@ -1,11 +1,12 @@
 {
   "editor.fontFamily": "PragmataPro",
+  "workbench.fontAliasing": "antialiased",
   "editor.fontSize": 13,
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "relative",
   "workbench.colorTheme": "Hop Light",
-  "workbench.activityBar.visible": true,
+  "workbench.activityBar.visible": false,
   "editor.minimap.enabled": false,
   "vim.disableAnnoyingNeovimMessage": true,
   "editor.cursorBlinking": "phase",
@@ -14,7 +15,7 @@
   "workbench.colorCustomizations": {
     // "editorCursor.foreground": "#88C0D0"
     "editor.lineHighlightBackground": "#f9f9f9",
-    "editorCursor.foreground": "#f7c75f",
+    "editorCursor.foreground": "#5196f0",
     "editorCursor.background": "#FFFFFF",
     "terminal.ansiBlack": "#41a6d9",
     "terminal.ansiBlue": "#41a6d9",
@@ -45,13 +46,13 @@
     "panel.border": "#eeeeee",
     "editorLineNumber.foreground": "#cfcfcf",
     "titleBar.activeBackground": "#f6f6f6",
-    "editor.selectionBackground": "#f6f6f6"
+    "editor.selectionBackground": "#f6f6f6",
+    "editorBracketMatch.border": "#9ed106"
   },
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "workbench.statusBar.visible": true,
   "editor.renderLineHighlight": "all",
   "code-runner.showRunIconInEditorTitleMenu": false,
-  "editor.snippetSuggestions": "top",
-  "window.zoomLevel": 0
+  "editor.snippetSuggestions": "top"
 }
