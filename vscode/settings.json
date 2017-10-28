@@ -46,7 +46,7 @@
     "panel.border": "#eeeeee",
     "editorLineNumber.foreground": "#cfcfcf",
     "titleBar.activeBackground": "#f6f6f6",
-    "editor.selectionBackground": "#f6f6f6",
+    "editor.selectionBackground": "#b1e0fa9f",
     "editorBracketMatch.border": "#9ed106"
   },
   "terminal.integrated.cursorBlinking": true,
