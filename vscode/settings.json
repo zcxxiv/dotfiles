@@ -49,6 +49,9 @@
     "editor.selectionBackground": "#b1e0fa9f",
     "editorBracketMatch.border": "#9ed106"
   },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "workbench.statusBar.visible": true,
