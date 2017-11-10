@@ -2,22 +2,26 @@
   {
     "key": "ctrl+alt+d",
     "command": "editor.action.goToDeclaration",
-    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    "when":
+      "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   },
   {
     "key": "f12",
     "command": "-editor.action.goToDeclaration",
-    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    "when":
+      "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   },
   {
     "key": "ctrl+shift+d",
     "command": "editor.action.previewDeclaration",
-    "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    "when":
+      "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   },
   {
     "key": "alt+f12",
     "command": "-editor.action.previewDeclaration",
-    "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    "when":
+      "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   },
   {
     "key": "alt+`",
@@ -67,7 +71,7 @@
     "when": "!terminalFocus"
   },
   {
-  "key": "alt+tab",
+    "key": "alt+tab",
     "command": "workbench.action.focusNextGroup"
   },
   {
@@ -77,7 +81,7 @@
   {
     "key": "alt+tab",
     "command": "workbench.action.terminal.focusNext",
-    "when":"terminalFocus"
+    "when": "terminalFocus"
   },
   {
     "key": "ctrl+shift+g",
@@ -136,5 +140,13 @@
     "key": "alt+down",
     "command": "-editor.action.moveLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+ctrl+/",
+    "command": "docthis.documentThis"
+  },
+  {
+    "key": "cmd+ctrl+m",
+    "command": "workbench.action.toggleMaximizedPanel"
   }
 ]
