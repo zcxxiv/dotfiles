@@ -24,17 +24,17 @@
       "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   },
   {
-    "key": "alt+`",
+    "key": "alt+e",
     "command": "workbench.files.action.focusFilesExplorer",
     "when": "!fileExploreerFocus"
   },
   {
-    "key": "alt+`",
+    "key": "alt+e",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "explorerViewletFocus"
   },
   {
-    "key": "alt+`",
+    "key": "alt+e",
     "command": "workbench.files.action.focusFilesExplorer",
     "when": "editorFocus"
   },
@@ -61,12 +61,12 @@
     "when": "explorerViewletVisible && filesExplorerFocus"
   },
   {
-    "key": "alt+1",
+    "key": "alt+t",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
   },
   {
-    "key": "alt+1",
+    "key": "alt+t",
     "command": "workbench.action.terminal.focus",
     "when": "!terminalFocus"
   },

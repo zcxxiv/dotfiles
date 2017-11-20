@@ -1,12 +1,12 @@
 {
   "editor.fontFamily": "PragmataPro",
   "workbench.fontAliasing": "antialiased",
-  "editor.fontSize": 13,
+  "editor.fontSize": 15,
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
-  "editor.lineNumbers": "relative",
+  "editor.lineNumbers": "off",
   "workbench.colorTheme": "Hop Light",
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "editor.minimap.enabled": false,
   "vim.disableAnnoyingNeovimMessage": true,
   "editor.cursorBlinking": "phase",
@@ -52,10 +52,16 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "workbench.statusBar.visible": true,
   "editor.renderLineHighlight": "all",
   "code-runner.showRunIconInEditorTitleMenu": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
   "editor.snippetSuggestions": "top"
 }
