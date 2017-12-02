@@ -13,6 +13,31 @@
                 },
                 "rules": [
                     {
+                        "description": "app switch(happen before mapping escape)",
+                        "manipulators": [
+                          {
+                            "from": {
+                              "key_code": "escape",
+                              "modifiers": {
+                                "mandatory": [
+                                  "left_command"
+                                ]
+                              }
+                            },
+                            "to": [
+                              {
+                                "key_code": "grave_accent_and_tilde",
+                                "modifiers": [
+                                  "left_command"
+                                ]
+                              }
+                            ],
+                            "type": "basic"
+                          }
+                        ]
+                      },
+            
+                    {
                         "description": "For Xcode: option + escape to alt-shift-tab",
                         "manipulators": [
                             {
@@ -40,51 +65,51 @@
                     {
                         "description": "Left and Right Command together -> F19",
                         "manipulators": [
-                          {
-                            "from": {
-                              "key_code": "right_command",
-                              "modifiers": {
-                                "mandatory": [
-                                  "left_command"
+                            {
+                                "from": {
+                                    "key_code": "right_command",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_command"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f19"
+                                    }
                                 ],
-                                "optional": [
-                                  "any"
-                                ]
-                              }
-                            },
-                            "to": [
-                              {
-                                "key_code": "f19"
-                              }
-                            ],
-                            "type": "basic"
-                          }
+                                "type": "basic"
+                            }
                         ]
-                      },
-                      {
+                    },
+                    {
                         "description": "Right and Left Command together -> F19",
                         "manipulators": [
-                          {
-                            "from": {
-                              "key_code": "left_command",
-                              "modifiers": {
-                                "mandatory": [
-                                  "right_command"
+                            {
+                                "from": {
+                                    "key_code": "left_command",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_command"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f19"
+                                    }
                                 ],
-                                "optional": [
-                                  "any"
-                                ]
-                              }
-                            },
-                            "to": [
-                              {
-                                "key_code": "f19"
-                              }
-                            ],
-                            "type": "basic"
-                          }
+                                "type": "basic"
+                            }
                         ]
-                  },
+                    },
                     {
                         "description": "brightness up",
                         "manipulators": [
@@ -2191,7 +2216,7 @@
                 }
             ],
             "name": "HHKB",
-            "selected": false,
+            "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
