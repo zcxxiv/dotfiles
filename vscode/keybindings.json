@@ -1,6 +1,6 @@
 [
   {
-    "key": "ctrl+alt+d",
+    "key": "alt+ctrl+d",
     "command": "editor.action.goToDeclaration",
     "when":
       "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
@@ -41,10 +41,6 @@
   {
     "key": "shift+cmd+e",
     "command": "-workbench.view.explorer"
-  },
-  {
-    "key": "cmd+r",
-    "command": "code-runner.run"
   },
   {
     "key": "ctrl+alt+n",
@@ -148,5 +144,99 @@
   {
     "key": "cmd+ctrl+m",
     "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "workbench.action.debug.start",
+    "when": "!inDebugMode"
+  },
+  {
+    "key": "f5",
+    "command": "-workbench.action.debug.start",
+    "when": "!inDebugMode"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.debug.run",
+    "when": "!inDebugMode"
+  },
+  {
+    "key": "ctrl+f5",
+    "command": "-workbench.action.debug.run",
+    "when": "!inDebugMode"
+  },
+  {
+    "key": "cmd+.",
+    "command": "workbench.action.debug.stop",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "shift+f5",
+    "command": "-workbench.action.debug.stop",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "alt+cmd+b",
+    "command": "editor.debug.action.toggleBreakpoint",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "f9",
+    "command": "-editor.debug.action.toggleBreakpoint",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+c",
+    "command": "workbench.action.debug.continue",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "f5",
+    "command": "-workbench.action.debug.continue",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "f5",
+    "command": "workbench.action.debug.restart",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "shift+cmd+f5",
+    "command": "-workbench.action.debug.restart",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "alt+cmd+n",
+    "command": "workbench.action.debug.stepOver",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "f10",
+    "command": "-workbench.action.debug.stepOver",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "cmd+down",
+    "command": "workbench.action.debug.stepInto",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "f11",
+    "command": "-workbench.action.debug.stepInto",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "cmd+up",
+    "command": "workbench.action.debug.stepOut",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "shift+f11",
+    "command": "-workbench.action.debug.stepOut",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "workbench.debug.action.focusVariablesView"
   }
 ]
