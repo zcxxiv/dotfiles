@@ -47,16 +47,6 @@
     "command": "-code-runner.run"
   },
   {
-    "key": "a",
-    "command": "explorer.newFile",
-    "when": "explorerViewletVisible && filesExplorerFocus"
-  },
-  {
-    "key": "shift+a",
-    "command": "explorer.newFolder",
-    "when": "explorerViewletVisible && filesExplorerFocus"
-  },
-  {
     "key": "alt+t",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
@@ -196,7 +186,7 @@
     "when": "inDebugMode"
   },
   {
-    "key": "f5",
+    "key": "cmd+r",
     "command": "workbench.action.debug.restart",
     "when": "inDebugMode"
   },
@@ -216,7 +206,7 @@
     "when": "inDebugMode"
   },
   {
-    "key": "cmd+down",
+    "key": "cmd+shift+down",
     "command": "workbench.action.debug.stepInto",
     "when": "inDebugMode"
   },
@@ -226,7 +216,7 @@
     "when": "inDebugMode"
   },
   {
-    "key": "cmd+up",
+    "key": "cmd+shift+up",
     "command": "workbench.action.debug.stepOut",
     "when": "inDebugMode"
   },
