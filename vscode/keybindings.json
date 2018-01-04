@@ -228,5 +228,15 @@
   {
     "key": "shift+cmd+d",
     "command": "workbench.debug.action.focusVariablesView"
+  },
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus"
   }
 ]
