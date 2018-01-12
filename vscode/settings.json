@@ -4,11 +4,10 @@
   "editor.fontSize": 15,
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "relative",
   "workbench.colorTheme": "Hop Light",
   "workbench.activityBar.visible": true,
   "editor.minimap.enabled": false,
-  "vim.disableAnnoyingNeovimMessage": true,
   "editor.cursorBlinking": "phase",
   "workbench.iconTheme": "vs-seti",
   "workbench.sideBar.location": "right",
@@ -57,11 +56,38 @@
   "terminal.integrated.cursorStyle": "line",
   "workbench.statusBar.visible": true,
   "editor.renderLineHighlight": "all",
-  "code-runner.showRunIconInEditorTitleMenu": false,
   "editor.quickSuggestions": {
     "other": true,
     "comments": true,
     "strings": true
   },
-  "editor.snippetSuggestions": "top"
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  },
+  "vim.otherModesKeyBindings": [
+    {
+      "before": [
+        "c",
+        "c"
+      ],
+      "after": [
+        "d",
+        "d",
+        "d",
+        "O"
+      ]
+    }
+  ],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "prettier.singleQuote": true,
+  "tslint.alwaysShowRuleFailuresAsWarnings": true,
+  "debug.hideActionBar": true
 }

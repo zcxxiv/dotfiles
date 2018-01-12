@@ -2,26 +2,22 @@
   {
     "key": "alt+ctrl+d",
     "command": "editor.action.goToDeclaration",
-    "when":
-      "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   },
   {
     "key": "f12",
     "command": "-editor.action.goToDeclaration",
-    "when":
-      "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   },
   {
     "key": "ctrl+shift+d",
     "command": "editor.action.previewDeclaration",
-    "when":
-      "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   },
   {
     "key": "alt+f12",
     "command": "-editor.action.previewDeclaration",
-    "when":
-      "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   },
   {
     "key": "alt+e",
@@ -238,5 +234,15 @@
     "key": "shift+cmd+n",
     "command": "explorer.newFolder",
     "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "alt+cmd+f",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+.",
+    "command": "-editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
   }
 ]
