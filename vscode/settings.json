@@ -12,7 +12,6 @@
   "workbench.iconTheme": "vs-seti",
   "workbench.sideBar.location": "right",
   "workbench.colorCustomizations": {
-    // "editorCursor.foreground": "#88C0D0"
     "editor.lineHighlightBackground": "#f9f9f9",
     "editorCursor.foreground": "#5196f0",
     "editorCursor.background": "#FFFFFF",
@@ -46,7 +45,10 @@
     "editorLineNumber.foreground": "#cfcfcf",
     "titleBar.activeBackground": "#f6f6f6",
     "editor.selectionBackground": "#b1e0fa9f",
-    "editorBracketMatch.border": "#9ed106"
+    "editorBracketMatch.border": "#9ed106",
+    "statusBar.background": "#416dbe",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#db8974"
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -71,6 +73,13 @@
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
   },
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": false,
+  "vim.hlsearch": true,
+  "vim.enableNeovim": true,
+  "vim.neovimPath": "/usr/local/bin/nvim",
   "vim.otherModesKeyBindings": [
     {
       "before": [
@@ -85,9 +94,17 @@
       ]
     }
   ],
+  "vim.leader": "<space>",
+  "vim.easymotionMarkerHeight": 19,
+  "vim.easymotionMarkerFontFamily": "PragmataPro",
+  "vim.easymotionMarkerFontSize": "14",
+  "vim.easymotionMarkerYOffset": 5,
+  // "vim.easymotionMarkerBackgroundColor": "#FFFFFF",
+  // "vim.easymotionMarkerForegroundColorOneChar": "#FF8080",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "prettier.singleQuote": true,
   "tslint.alwaysShowRuleFailuresAsWarnings": true,
-  "debug.hideActionBar": true
+  "debug.hideActionBar": true,
+  "prettier.trailingComma": "es5"
 }
