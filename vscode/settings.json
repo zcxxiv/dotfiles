@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "PragmataPro",
   "workbench.fontAliasing": "antialiased",
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
   "editor.lineNumbers": "relative",
@@ -13,7 +13,7 @@
   "workbench.sideBar.location": "right",
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#f9f9f9",
-    "editorCursor.foreground": "#5196f0",
+    "editorCursor.foreground": "#729ceb",
     "editorCursor.background": "#FFFFFF",
     "terminal.ansiBlack": "#41a6d9",
     "terminal.ansiBlue": "#41a6d9",
@@ -48,7 +48,7 @@
     "editorBracketMatch.border": "#9ed106",
     "statusBar.background": "#416dbe",
     "statusBar.noFolderBackground": "#005f5f",
-    "statusBar.debuggingBackground": "#db8974"
+    "statusBar.debuggingBackground": "#639958"
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -76,10 +76,10 @@
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": false,
+  "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
   "vim.enableNeovim": true,
-  "vim.neovimPath": "/usr/local/bin/nvim",
+  // "vim.neovimPath": "/usr/local/bin/nvim",
   "vim.otherModesKeyBindings": [
     {
       "before": [
@@ -106,5 +106,6 @@
   "prettier.singleQuote": true,
   "tslint.alwaysShowRuleFailuresAsWarnings": true,
   "debug.hideActionBar": true,
-  "prettier.trailingComma": "es5"
+  "prettier.trailingComma": "es5",
+  "window.zoomLevel": 0
 }
