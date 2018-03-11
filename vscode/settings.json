@@ -1,15 +1,18 @@
 {
   "editor.fontFamily": "PragmataPro",
   "workbench.fontAliasing": "auto",
-  "editor.fontSize": 16,
+  "editor.fontSize": 15,
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
+  "editor.rulers": [
+    80
+  ],
   "editor.lineNumbers": "relative",
   "workbench.activityBar.visible": true,
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "phase",
   "workbench.iconTheme": "vs-seti",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "workbench.colorCustomizations": {
     "[Hop Light]": {
       "editor.lineHighlightBackground": "#f9f9f9",
@@ -54,6 +57,18 @@
       "editorCursor.foreground": "#b7d49d",
       "terminalCursor.foreground": "#b7d49d",
     },
+    "[Verdandi Alter]": {
+      "activityBarBadge.background": "#58B560",
+      "editor.background": "#161616",
+      "activityBar.background": "#121212",
+      "titleBar.activeBackground": "#161616",
+      "editorCursor.foreground": "#58B560",
+      "editorCursor.background": "#FFFFFF",
+      "terminalCursor.foreground": "#58B560",
+      "statusBar.debuggingBackground": "#58B560",
+      "statusBar.foreground": "#FEFEFE",
+      "statusBar.debuggingForeground": "#FEFEFE"
+    },
     "[City Lights]": {
       "editorCursor.foreground": "#88C0D0",
       "editorSuggestWidget.selectedBackground": "#3F4D5B",
@@ -62,9 +77,14 @@
       "statusBar.debuggingForeground": "#fefefe"
     },
     "[Default Dark+]": {
-      "editorCursor.foreground": "#b7d49d",
-      "terminalCursor.foreground": "#b7d49d",
-      "statusBar.debuggingBackground": "#639958"
+      "activityBarBadge.background": "#58B560",
+      "editor.background": "#161616",
+      "activityBar.background": "#121212",
+      "titleBar.activeBackground": "#161616",
+      "editorCursor.foreground": "#58B560",
+      "editorCursor.background": "#FFFFFF",
+      "terminalCursor.foreground": "#58B560",
+      "statusBar.debuggingBackground": "#58B560",
     }
   },
   "emmet.includeLanguages": {
@@ -127,5 +147,6 @@
   "window.zoomLevel": 0,
   "workbench.list.openMode": "doubleClick",
   "gitlens.codeLens.enabled": false,
-  "workbench.colorTheme": "Nord",
+  "workbench.colorTheme": "Hop Light",
+  "gitlens.keymap": "alternate",
 }
